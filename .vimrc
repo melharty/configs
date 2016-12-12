@@ -4,9 +4,9 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
-set rtp+=~/.vim/bundle/ctrlp.vim
-set rtp+=~/.vim/bundle/nerdcommenter
-set rtp+=~/.vim/bundle/vim-commentary
+" set rtp+=~/.vim/bundle/ctrlp.vim
+" set rtp+=~/.vim/bundle/nerdcommenter
+" set rtp+=~/.vim/bundle/vim-commentary
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -23,8 +23,9 @@ Plugin 'https://github.com/evidens/vim-twig.git'
 Plugin 'https://github.com/ervandew/supertab.git'
 Plugin 'https://github.com/scrooloose/nerdcommenter.git'
 Plugin 'https://github.com/vim-scripts/ReplaceWithRegister.git'
-" Plugin 'vim-airline/vim-airline'
 Plugin 'https://github.com/tpope/vim-fugitive.git'
+Plugin 'https://github.com/kien/ctrlp.vim.git'
+Plugin 'https://github.com/tpope/vim-commentary.git'
 
 " The following are 'examples' of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
